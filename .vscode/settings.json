@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "src",
-        // "src/io/sevenx/vehiclecity"
+        "src/main/java",
+        // "src//main/io/sevenx/vehiclecity"
     ]
 }

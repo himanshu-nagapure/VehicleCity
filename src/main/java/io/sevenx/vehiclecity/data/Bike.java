@@ -16,9 +16,9 @@ public class Bike extends Vehicle{
 
     public void getInfo()
     {
-        System.out.println(getVehicleModel()+" : Rs "+getPrice() + " Lakh");
+        System.out.println(getVehicleModel()+" - Rs "+getPrice() + " Lakh");
         super.getInfo();
         System.out.println("Crash Guard Protection : "+ (hasCrashGuard ? "Yes" : "No"));
-        System.out.println("Disc Break : "+ breakType);
+        System.out.println("Break Type : "+ breakType);
     }
 }
