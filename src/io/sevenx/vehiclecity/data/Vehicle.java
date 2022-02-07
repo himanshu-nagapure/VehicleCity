@@ -4,14 +4,14 @@ public class Vehicle {
 
         private String registrationNumber = "";
         private String model = "";
-        private double mileage = 0.0;
+        private float mileage;
         private double price;
         private int fuelCapacity;
         private int numberOfGears;
-        private String color="";
+        private String color = "";
     
         public Vehicle(){}
-        // public Vehicle(String registrationNumber, String model,double price, double mileage) {
+        // public Vehicle(String registrationNumber, String model,double price, float mileage) {
         //     this.registrationNumber = registrationNumber;
         //     this.model = model;
         //     this.price = price;
@@ -47,21 +47,20 @@ public class Vehicle {
             this.price = price;  
             return this;  
         }
-        public Vehicle setMileage(double mileage){
+        public Vehicle setMileage(float mileage){
             this.mileage = mileage;  
             return this;  
         }
         public void getInfo()
         {
-            System.out.println("\tKey specs");
+            System.out.println("\tKey specs");          
             System.out.println("Registration number: "+registrationNumber);
             System.out.println("Model : "+model);
-            System.out.println("Mileage: "+mileage +" ");
+            System.out.println("Mileage: "+mileage +" kmpl");
             if(this.color != "")
                 System.out.println("Colours Available: " + color);
-            System.out.println("Fuel Capacity: "+fuelCapacity);
+            System.out.println("Fuel Capacity(Litres) : "+fuelCapacity);
             System.out.println("Number of Gears: "+numberOfGears);
-            System.out.println();
         }
     }
 

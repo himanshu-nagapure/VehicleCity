@@ -15,7 +15,7 @@ public class VehicleDisplay {
 				Car car = (Car)vehicle;
                 car.getInfo();
 			}
-			System.out.println("----------------------\n");
+			System.out.println("\n----------------------\n");
 		}
 	}
 }
