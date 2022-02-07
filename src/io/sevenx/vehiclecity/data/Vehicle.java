@@ -5,13 +5,13 @@ public class Vehicle {
         private String registrationNumber = "";
         private String model = "";
         private float mileage;
-        private double price;
+        private double price ;
         private int fuelCapacity;
         private int numberOfGears;
         private String color = "";
     
         public Vehicle(){}
-        // public Vehicle(String registrationNumber, String model,double price, float mileage) {
+        // public Vehicle(String registrationNumber, String model,float price, float mileage) {
         //     this.registrationNumber = registrationNumber;
         //     this.model = model;
         //     this.price = price;

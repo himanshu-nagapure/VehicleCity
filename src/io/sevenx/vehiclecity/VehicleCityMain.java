@@ -34,6 +34,8 @@ public class VehicleCityMain {
             ((Car)car1).setNumberOfSeats(4);*/
     
             /* I won't be able to do this : 
-            car1.setFuelCapacity(25).setHasAirConditioner(true).setHasMusicSystem(true).setNumberOfSeats(4);*/
+            car1.setFuelCapacity(25).setHasAirConditioner(true).setHasMusicSystem(true).setNumberOfSeats(4);
+            Vehicle car1 would be wrong too.
+            */
     }
 }
