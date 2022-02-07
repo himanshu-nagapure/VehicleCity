@@ -1,9 +1,12 @@
-import java.util.ArrayList;
+package io.sevenx.vehiclecity;
 
-import src.main.io.sevenx.vehiclecity.data.Bike;
-import src.main.io.sevenx.vehiclecity.data.Car;
-import src.main.io.sevenx.vehiclecity.data.Vehicle;
-import src.main.io.sevenx.vehiclecity.ui.VehicleDisplay;
+import java.util.ArrayList;
+import java.util.List;
+
+import io.sevenx.vehiclecity.data.Bike;
+import io.sevenx.vehiclecity.data.Car;
+import io.sevenx.vehiclecity.data.Vehicle;
+import io.sevenx.vehiclecity.ui.VehicleDisplay;
 
 public class VehicleCityMain {
     public static void main(String arg[])
@@ -18,10 +21,11 @@ public class VehicleCityMain {
             .setModel("Kawasaki Ninja").setMileage(15).setFuelCapacity(17)
             .setColor("Green").setPrice(3.2);
 
-        ArrayList <Vehicle> vehicles = new ArrayList<>();
+        List <Vehicle> vehicles = new ArrayList<>();
         vehicles.add(bike1);
         vehicles.add(car1);
 
         VehicleDisplay.display(vehicles);
+        
     }
 }

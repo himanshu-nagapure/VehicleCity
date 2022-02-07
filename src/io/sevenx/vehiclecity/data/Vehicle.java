@@ -1,4 +1,4 @@
-package src.main.io.sevenx.vehiclecity.data;
+package io.sevenx.vehiclecity.data;
 
 public class Vehicle {
 

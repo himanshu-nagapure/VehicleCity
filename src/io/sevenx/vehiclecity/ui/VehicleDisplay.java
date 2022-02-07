@@ -1,10 +1,8 @@
-package src.main.io.sevenx.vehiclecity.ui;
-
+package io.sevenx.vehiclecity.ui;
 import java.util.List;
-
-import src.main.io.sevenx.vehiclecity.data.Bike;
-import src.main.io.sevenx.vehiclecity.data.Car;
-import src.main.io.sevenx.vehiclecity.data.Vehicle;
+import io.sevenx.vehiclecity.data.Bike;
+import io.sevenx.vehiclecity.data.Car;
+import io.sevenx.vehiclecity.data.Vehicle;
 
 public class VehicleDisplay {
     public static void display(List<Vehicle> vehicles) {
